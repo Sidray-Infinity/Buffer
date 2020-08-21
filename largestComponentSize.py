@@ -25,19 +25,4 @@ if __name__ == "__main__":
 
     print(e)
 
-    components = []
-    visited = [False] * len(a)
-
-    while False in visited:
-        component = []
-
-        i = visited.index(False)
-        ne = [ele for ele in e[i] if ele == 1]
-        component.append(i)
-
-        while len(ne) > 0:
-            new_ne = 
-
-        print(ne)
-        components.append(component)
-        break
+    
